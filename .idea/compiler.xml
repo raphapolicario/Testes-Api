@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Testes-Api" />
+        <module name="api-automation-tests-challenge-rest-assured" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Testes-Api" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
